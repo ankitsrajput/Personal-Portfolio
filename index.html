@@ -422,16 +422,16 @@
             <input type="hidden" name="subject" value="New Contact Form Submission from Git Portfolio " />
             <input type="hidden" name="from_name" value="My Git Portfolio" />
 
-            <input type="text" placeholder="Your Name" name="name" id="name">
-            <input type="email" placeholder="E-Mail" name="email" id="email">
-            <input type="number" placeholder="+91-xxxxxxxxxx" name="contact" id="contact">
+            <input type="text" placeholder="Your Name" name="name" id="name" required>
+            <input type="email" placeholder="E-Mail" name="email" id="email" required>
+            <input type="number" placeholder="+91-xxxxxxxxxx" name="contact" id="contact" required>
             <select name="Choose-Service" id="select">
                 <option value="Choose-Service">Choose Service</option>
                 <option value="Web-Design">Web Design</option>
                 <option value="Data-Analytics">Data Analytics</option>
                 <option value="Digital-Marketing">Digital Marketing</option>
             </select>
-            <textarea name="textarea" id="textarea" placeholder="Your Message" cols="30" rows="10"></textarea>
+            <textarea name="textarea" id="textarea" placeholder="Your Message" cols="30" rows="10" required></textarea>
             <div class="btn-box formBtn">
                 <button type="submit" class="btn">Send Message</button>
             </div>
