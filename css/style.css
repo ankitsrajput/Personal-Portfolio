@@ -567,12 +567,12 @@ section{
 }
 
 .skill-bar .bar .html{
-    width: 72%;
+    width: 88%;
     animation: html 2s;
 }
 
 .skill-bar .bar .css{
-    width: 87%;
+    width: 67%;
     animation: css 3s;
 }
 
@@ -582,7 +582,7 @@ section{
 }
 
 .skill-bar .bar .bootstrap{
-    width: 84%;
+    width: 64%;
     animation: bootstrap 5s;
 }
 
